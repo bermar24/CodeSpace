@@ -74,6 +74,4 @@ public class MatrixMultiplication {
                 System.out.print(value + " ");
             }
             System.out.println();
-        }
-    }
-}
+
