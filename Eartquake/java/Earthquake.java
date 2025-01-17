@@ -1,3 +1,7 @@
+package Eartquake.java;
+
+import java.util.Scanner;
+
 enum EarthquakeCategory {
     MICRO("Nothing to do, nothing happened"),
     MINOR("If you felt it, you are very sensitive"),
