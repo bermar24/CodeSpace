@@ -24,7 +24,7 @@ public class spedSortTest {
     }
     public static void main(String[] args) {
         int runs = 10;
-        int[] testValues = {5, 10, 15, 20, 25, 30, 35, 40};
+        int[] testValues = {67, 19, 85, 41, 3, 97, 37, 14, 52, 22, 8, 63, 46, 58, 33, 81, 27, 76, 91, 71};
 
         System.out.println("Bubble Sort Test: " + getAverageTime(testValues, runs,HashAndSort.bubbleSort::main) + " ns");
         System.out.println("Selection Sort Test: " + getAverageTime(testValues, runs,HashAndSort.selectionSort::main) + " ns");
